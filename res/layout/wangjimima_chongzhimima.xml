@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- <include  layout="@layout/"/> -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:background="#30CC2A1E"
+        />
+
+    <EditText
+        android:layout_width="846px"
+        android:layout_height="110px"
+        android:layout_marginTop="126px"
+        android:background="@drawable/wangjimima_kuang"
+        android:hint="手机号"
+        android:paddingLeft="30px"
+        android:textColorHint="#bbbbbb"
+        android:textSize="44px" />
+
+    <RelativeLayout
+        android:layout_width="846px"
+        android:layout_height="110px"
+        android:layout_marginTop="34px"
+        android:background="@drawable/wangjimima_kuang"
+        android:paddingRight="10px" >
+
+        <EditText
+            android:id="@+id/jihuoma_edt"
+            android:layout_width="match_parent"
+            android:layout_height="84px"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="重置激活码"
+            android:paddingLeft="30px"
+            android:textColorHint="#bbbbbb"
+            android:textSize="44px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/jihuoma_edt"
+            android:layout_alignRight="@id/jihuoma_edt"
+            android:layout_alignTop="@id/jihuoma_edt"
+            android:background="@drawable/wangjimima_fasongjihuoma"
+            android:text="59秒后再次发送"
+            android:paddingLeft="10px"
+            android:paddingRight="10px"
+            android:textColor="#ffffff"
+            android:textSize="30px" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/chongzhimimaBtn"
+        android:layout_width="612px"
+        android:layout_height="114px"
+        android:layout_marginTop="536px"
+        android:background="@drawable/shangchuantouxiang_btm"
+        android:text="确 定"
+        android:textColor="#ffffff"
+        android:textSize="44px" />
+
+</LinearLayout>

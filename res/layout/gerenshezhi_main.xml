@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/" /> -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:background="#30c2c2c2" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="34px"
+        android:background="#a8a8a8" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gerenshezhi_tiao"
+        android:orientation="vertical"
+        android:paddingLeft="50px" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:paddingRight="34px" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="新消息通知"
+                android:textSize="46px" />
+
+            <ImageView
+                android:id="@+id/arrowxia"
+                android:layout_width="42px"
+                android:layout_height="30px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/gerenshezhi_arrowxia"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通用设置"
+                android:textSize="46px" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐私设置"
+                android:textSize="46px" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改密码"
+                android:textSize="46px" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绑定新浪微博"
+                android:textSize="46px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#a8a8a8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="34px"
+        android:background="#a8a8a8" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gerenshezhi_tiao"
+        android:orientation="vertical"
+        android:paddingLeft="50px" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical"
+            android:paddingRight="96px" >
+
+            <TextView
+                android:id="@+id/newsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版本更新"
+                android:textSize="46px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="当前v1.0"
+                android:textSize="46px" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新手帮助"
+                android:textSize="46px" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#e6e6e6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="130px"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于益友"
+                android:textSize="46px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#a8a8a8" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="34px"
+        android:background="#a8a8a8" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130px"
+        android:background="@drawable/gerenshezhi_tiao"
+        android:paddingLeft="50px"
+        android:paddingRight="34px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="服务中心"
+            android:textSize="46px" />
+
+        <ImageView
+            android:id="@+id/arrowxia"
+            android:layout_width="30px"
+            android:layout_height="42px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gerenshezhi_arrow"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:layout_toLeftOf="@id/arrowxia"
+            android:text="400-739-4262"
+            android:textSize="46px" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#a8a8a8" />
+
+    <Button
+        android:layout_width="928px"
+        android:layout_height="130px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140px"
+        android:background="@drawable/gerenshezhi_kuang"
+        android:text="退出当前帐号"
+        android:textColor="#CC2A1E"
+        android:textSize="50px" />
+</LinearLayout>

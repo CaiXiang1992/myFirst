@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/denglu_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- <include  layout="@layout/"/> -->
+
+    <EditText
+        android:layout_width="842px"
+        android:layout_height="100px"
+        android:layout_marginTop="704px"
+        android:background="@drawable/wangjimima_kuang"
+        android:hint="用户名"
+        android:paddingLeft="30px"
+        android:textColorHint="#bbbbbb"
+        android:textSize="44px" />
+
+    <EditText
+        android:layout_width="842px"
+        android:layout_height="100px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/wangjimima_kuang"
+        android:hint="密码"
+        android:paddingLeft="30px"
+        android:textColorHint="#bbbbbb"
+        android:textSize="44px" />
+
+    <RelativeLayout
+        android:layout_width="842px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我要注册"
+            android:textColor="#ffffff"
+            android:textScaleX="1.1"
+            android:textSize="36px" />
+
+        <CheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/denglu_zidongdenglu_press"
+            android:text="　自动登录"
+            android:textColor="#ffffff"
+            android:textScaleX="1.1"
+            android:textSize="36px" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/chongzhimimaBtn"
+        android:layout_width="570px"
+        android:layout_height="114px"
+        android:layout_marginTop="130px"
+        android:background="@drawable/shangchuantouxiang_btm"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textScaleX="1.1"
+        android:textSize="42px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38px"
+        android:text="忘记密码?"
+        android:textColor="#ffffff"
+        android:textScaleX="1.1"
+        android:textSize="36px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="164px" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/denglu_dou" />
+
+        <ImageButton
+            android:layout_marginLeft="66px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/denglu_weibo" />
+
+        <ImageButton
+             android:layout_marginLeft="66px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/denglu_qq" />
+    </LinearLayout>
+
+</LinearLayout>
