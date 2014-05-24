@@ -13,7 +13,7 @@
         android:layout_height="100px"
         android:layout_marginTop="704px"
         android:background="@drawable/wangjimima_kuang"
-        android:hint="用户名"
+        android:hint="Username"
         android:paddingLeft="30px"
         android:textColorHint="#bbbbbb"
         android:textSize="44px" />
