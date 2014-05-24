@@ -18,7 +18,7 @@
         android:layout_height="110px"
         android:layout_marginTop="126px"
         android:background="@drawable/wangjimima_kuang"
-        android:hint="手机号"
+        android:hint="阿斯达斯的"
         android:paddingLeft="30px"
         android:textColorHint="#bbbbbb"
         android:textSize="44px" />
