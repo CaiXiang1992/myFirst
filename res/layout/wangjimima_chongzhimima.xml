@@ -29,7 +29,6 @@
         android:layout_marginTop="34px"
         android:background="@drawable/wangjimima_kuang"
         android:paddingRight="10px" >
-
         <EditText
             android:id="@+id/jihuoma_edt"
             android:layout_width="match_parent"
